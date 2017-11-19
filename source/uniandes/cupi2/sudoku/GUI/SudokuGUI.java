@@ -96,11 +96,11 @@ public class SudokuGUI extends JFrame
         // Auxiliary Panes
         JPanel auxiliaryPane1 = new JPanel( );
         auxiliaryPane1.setPreferredSize( new Dimension( 110, 0 ) );
-        auxiliaryPane1.setBackground( Color.BLACK );
+        auxiliaryPane1.setBackground( Color.BLUE );
         add( auxiliaryPane1, BorderLayout.WEST );
         JPanel auxiliaryPane2 = new JPanel( );
         auxiliaryPane2.setPreferredSize( new Dimension( 110, 0 ) );
-        auxiliaryPane2.setBackground( Color.BLACK );
+        auxiliaryPane2.setBackground( Color.BLUE );
         add( auxiliaryPane2, BorderLayout.EAST );
     }
 
