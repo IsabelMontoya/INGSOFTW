@@ -137,6 +137,7 @@ public class ExtentionPane extends JPanel implements ActionListener
         // Botón option 1
         btnOption1 = new JButton( "Opcion 1" );
         btnOption1.setActionCommand( OPTION_1 );
+        btnOption1.setBackground(Color.GREEN);
         btnOption1.addActionListener( this );
         add( btnOption1 );
 
